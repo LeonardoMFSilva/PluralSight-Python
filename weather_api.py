@@ -1,8 +1,8 @@
 import requests
 
 def get_weather_desc_and_temp():
-    api_key = "12a229c344a61e88b0c74e05d7fc1dd6"
-    city = "São Bernardo do Campo"
+    api_key = ""
+    city = ""
     url = "https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid="+api_key+"&units=metric"
 
     request = requests.get(url)
